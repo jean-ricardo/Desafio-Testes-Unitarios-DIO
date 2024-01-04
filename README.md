@@ -2,20 +2,17 @@
 Desafio do bootcamp da Avanade em parceria com a DIO.
 
 ## Objetivo
- Implementar testes unitários em C#, cobrindo as partes mais críticas do sistema, com cenários positivos e negativos, a fim de ter uma rastreabilidade e controle do código, melhorando a qualidade do código.
+ Objetivo
+Implementar testes unitários em C# para abranger as partes mais críticas do sistema, considerando cenários positivos e negativos. Isso visa proporcionar rastreabilidade e controle do código, elevando a qualidade do mesmo.
 
- Bônus: foram implementados, por conta própria, alguns exemplos no Program.cs para validar os códigos de teste.
+Bônus: alguns exemplos foram adicionados no Program.cs de forma independente para validar os códigos de teste.
 
 ## Premissas
-O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
+O sistema atualmente contém dois projetos: um do tipo console e outro do tipo testes utilizando xUnit. O projeto do tipo console inclui duas classes, ValidacoesLista e ValidacoesString, responsáveis pelas principais lógicas. Ambas as classes possuem métodos comuns utilizados para diversas validações em cenários específicos.
 
-O projeto de testes possui as classes de teste **ValidacoesListaTests** e **ValidacoesStringTests**, assim como seus métodos para validar o projeto do tipo console, porém estão incompletos. 
+O projeto de testes contém as classes de teste ValidacoesListaTests e ValidacoesStringTests, juntamente com seus métodos para validar o projeto do tipo console. No entanto, esses métodos estão incompletos.
 
-O seu objetivo é implementar os métodos de testes contidos no projeto.
-
-## Projeto Console, suas classes e métodos
-
-Essas são as classes do projeto console, onde fica a principal lógica do sistema.
+O objetivo é implementar os métodos de teste contidos no projeto de testes.
 
 **Classe ValidaçõesLista**
 
